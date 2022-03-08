@@ -238,8 +238,8 @@ h3{
     padding: 40px;
     padding-top: 90px;   
 }
-.srvc-article img{
-    width: 55px;
+.srvc-article .fa-solid{
+font-size:  55px;
 }
 .srvc-article h5{
     text-transform: capitalize;
@@ -272,6 +272,7 @@ h3{
 .css-article-text p{
     margin: 36px 0;
     line-height: 2;
+    font-size: 16px;
 }
 .image-conntainer img{
     max-width: 410px;
