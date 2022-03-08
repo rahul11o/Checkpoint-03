@@ -353,8 +353,9 @@ h4{
 }
 .call-text{
     width: 30%;
-    color: #c9d0d8;
-   
+}
+.call-text p{
+    color:#c3cbd4  ;
 }
 .call-text h3{
     color:#c9d0d8 ;
