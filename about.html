@@ -8,7 +8,8 @@
     <script src="https://kit.fontawesome.com/56056e4dbf.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
     <link rel="stylesheet" href="style.css">   
 </head>
 <body>
@@ -43,8 +44,8 @@
             </ul>
             <nav class="flex">
                 <ul  class="flex">
-                    <li><a href="#">home</a></li>
-                    <li><a href="about.html">about</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">about</a></li>
                     <li><a href="services.html">services</a></li>
                     <li><a href="cases.html">cases</a></li>
                     <li><a href="blog.html">blog</a></li>
@@ -57,17 +58,11 @@
         </div>
     </header>
     <main>
-        <section class="home-section">
-            <div class="page-container">
-                <div class="home-content">
-                    <h6>welcome to buson</h6>
-                    <h1>we help you to grow your business</h1>
-                    <button  class="btn">learn more </button>
-                </div>
-            </div>
-        </section>
-        <section class="about-section">
-            <div class=" abt-first-row"> 
+        <section class="about-section flex flex-wrap">
+            <header class="section-header" style="background: url(media/hero/about_hero.jpg);">
+                <h3>About</h3>
+            </header>
+            <div class=" abt-first-row order-one"> 
                 <div class="  page-container flex">
                     <article class="abt-article ">
                         <img src="media/team/team_1.jpg" alt="team">
@@ -89,57 +84,16 @@
                     </article>
                 </div>
             </div>
-            <div class=" abt-second-row">
+            <div class=" abt-second-row padding-zero">
                 <article class="page-container flex-end">
-                     <img src="media/team/wetrusted.jpg" alt="wetrusted.jpg">
-                     <div class="article-text">
-                        <h3>We are more trusted then 5000 clients</h3>
-                        <p> Consectetur  elit.consectetur adipisicing elit. Abcdef repellat, corrupti error voluptatem natus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quam..</p>
-                        <button  class="btn">learn more </button>
-                     </div>  
-                </article>
+                    <img src="media/team/wetrusted.jpg" alt="wetrusted.jpg">
+                    <div class="article-text">
+                       <h3>We are more trusted then 5000 clients</h3>
+                       <p> Consectetur  elit.consectetur adipisicing elit. Abcdef repellat, corrupti error voluptatem natus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quam..</p>
+                       <button  class="btn">learn more </button>
+                    </div>  
+               </article>
             </div>
-        </section>
-        <section class="our-service-section">
-            <div class="page-container">
-                <header class="header">
-                    <h2>Our Services</h2>
-                </header>
-                <div class="flex">
-                    <article class="srvc-article ">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <h5>Strategic planning</h5>
-                        <p>Lorem ipsum dolor sit ame amet consectetur adipisicing elit. Enim, laboriosam est!</p>
-                    </article>
-                    <article class="srvc-article ">
-                        <i class="fa-solid fa-business-time"></i>
-                        <h5>Trade and Stocks</h5>
-                        <p>Lorem ipsum dolor sit amet ame consectetur adipisicing elit. Enim, laboriosam est!</p>
-                    </article>
-                    <article class="srvc-article">
-                        <i class="fa-solid fa-file-signature"></i>
-                        <h5>Audit & assurance</h5>
-                        <p>Lorem ipsum dolor sit ame amet consectetur adipisicing elit. Enim, laboriosam est!</p>
-                    </article>
-                </div>
-                <button  class="btn">More services </button>
-            </div>
-        </section>
-        <section class="case-study-section ">
-            <article class="cse-article" >
-                <div class="page-container flex-start">
-                      <div class="css-article-text">
-                          <h3>Completed cases</h3>
-                          <p> Consectetur  elit.consectetur adipisicing elit. Abcdef repellat, corrupti error voluptatem natus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quam..</p>
-                          <button class="btn">See more </button>
-                      </div>
-                      <div class=" image-conntainer">
-                          <img src="media/cases/completed_case_2.png" alt="three person standig together">
-                          <img src="media/cases/completed_case_1.png" alt="a girl ">
-                          <img src="media/cases/completed_case_2.png" alt="three person standig together">
-                      </div>
-                </div>
-             </article>
         </section>
         <section class="fdbc-section">
             <article class="fdbc-article page-container">
@@ -214,8 +168,8 @@
             <nav class="column-18">
                 <p>Company</p>
                 <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="about.html">about us</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">about us</a></li>
                     <li><a href="services.html">services</a></li>
                     <li><a href="cases.html">cases</a></li>
                     <li><a href="contact.html">contact us</a></li>
